@@ -1,0 +1,125 @@
+body{
+    background-color: #e8e8e8;
+}
+
+.Entire{
+    margin: 5% auto;
+    font-family: "Gamja Flower", sans-serif;
+    width: 300px;
+    border: solid rgb(62, 62, 62) 1.5px;
+    border-radius: 2%;
+    background-image: url("https://i.pinimg.com/474x/8b/b9/d3/8bb9d36cc8ab8e8b4607fee2a01f0fc8.jpg");
+    /*background-color: #f3f7f9;*/
+}
+
+header{
+    background-color: #406048;
+    width: 100%;
+    padding: 5px 0px 5px ;
+    font-size: 20px;
+    color:beige;
+    border-radius: 2% 2%;
+
+}
+
+nav{
+    background-color: #a4afa6;
+    width: 100%;
+    font-size: 12px;
+    text-align: right;
+    
+}
+
+.content{
+    border: solid black 2px;
+    width: 130px;
+    margin: 5px auto;
+    color:#efefef;
+    text-align: center;
+    background-image: url("https://symbl-world.akamaized.net/i/webp/63/e5106d32bb0b2e99cc2cbb865b36af.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #efefef;
+    
+}
+
+.content>p{
+    background-color: #40322d;
+   text-align: left;
+    margin:0 auto;
+    border-radius:   0;
+}
+
+
+.Explanation{
+    border: 0;
+    margin: 5px auto;
+    width:140px;
+    color:#40322d;
+    text-align: center;
+    padding:2px;
+}
+
+.Explanation> table{
+    font-size: 13px;
+    display: inline-block;
+}
+.Explanation > p{
+    font-size: 16px;
+    margin:0;
+    width: 60px;
+    background-color: #40322d;
+    border-radius: 80%;
+    display: inline-block;
+    color:aliceblue
+}
+
+th{
+   width: 25px;
+   background-color: #40322d; 
+   color:#efefef
+}
+
+td{
+    background-color: #efefef;
+    margin:5px auto;
+
+}
+
+article{
+    border: dotted 3px #81c147;
+    border-radius: 15px 15px 15px 15px;
+    color:#40322d;
+    background-color: #ffffcc;
+    width: 280px;
+    margin: auto;
+}
+
+
+article>p{
+    margin: 15px;
+}
+
+.image_change{
+    border: solid black 4px;
+}
+main{
+    display: flex;
+}
+
+footer{
+    background-color: #40322d;
+    color: rgb(243, 255, 234);
+    text-align: center;
+    border-radius: 2% 2%;
+}
+
+button {
+    background-color: #369820;
+    color:#ffffff;
+    font-family: "Gamja Flower", cursive;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid #167335;
+  }
